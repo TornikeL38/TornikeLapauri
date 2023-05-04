@@ -1,0 +1,64 @@
+font-face {
+    font-family: Yellowtail;
+    src: local("Yellowtail"),
+    url("./../fonts/Yellowtail-Regular.ttf") format("truetype");
+    src: url("./../fonts/Yellowtail-Regular.ttf");
+  }
+.conteinerForSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 120px;
+}
+h4{
+    color: #274C5B;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+img{
+    border-radius: 25px;
+}
+p{
+    color: #7EB693;
+    font-family: Yellowtail;
+}
+.txtOnPic2{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+.secondConteiner{
+    display:flex ;
+    justify-content: center;
+    position: relative;
+}
+.txtOnPic2 h2{
+    font-weight: 800;
+    font-size: 50px;
+    color: aliceblue;
+    margin-right: 250px;
+}
+input{
+    width: 350px;
+    height: 80px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+}
+button{
+    height: 80px;
+    width: 270px;
+    border-radius: 15px;
+    background-color: #274C5B;
+    color: white;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

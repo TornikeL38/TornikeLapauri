@@ -1,0 +1,15 @@
+.txtColor{
+    color: #274C5B;
+}
+.Img1{
+    max-width: 100%;
+}
+.conteiner{
+    position: relative;
+}
+.textOnPic{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
